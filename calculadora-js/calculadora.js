@@ -24,7 +24,7 @@ function calcular(){
     var resultado = document.getElementById('resultado').innerHTML;
     var historico = [];
     var adicionar = historico.push(resultado + ' = ' + eval(resultado) + '<br>');
-    document.getElementById('resultado').innerHTML = eval(resultado);
+    document.getElementById('resultado').innerHTML = ""
     console.log(historico);
     document.querySelector('.historicoC').innerHTML += historico;
     
