@@ -1,0 +1,10 @@
+@media screen and (max-width:600px) {
+    .cal-hist {
+        width: 300px;
+        margin-top: 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        
+    }
+}
